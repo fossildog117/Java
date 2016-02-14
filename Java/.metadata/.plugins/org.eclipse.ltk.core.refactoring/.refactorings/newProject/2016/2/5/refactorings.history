@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;newProject.Calculate.getINTVal().input&apos; in &apos;newProject.Calculate.getINTVal()&apos; to field&#x0A;- Original project: &apos;newProject&apos;&#x0A;- Original element: &apos;newProject.Calculate.getINTVal().input&apos;&#x0A;- Field name: &apos;input&apos;&#x0A;- Initialize field in method&#x0A;- Declared visibility: &apos;private&apos;" description="Convert local variable &apos;input&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;newProject{newProject.java" name="input" selection="241 30" stamp="1454829418280" static="false" version="1.0" visibility="2"/>
+</session>

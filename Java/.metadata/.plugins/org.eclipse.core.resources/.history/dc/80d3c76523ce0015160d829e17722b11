@@ -1,0 +1,72 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+class Range {
+	
+	private int lower;
+	private int upper;
+	private int n;
+	
+	public int getLower() {
+		return this.lower;
+	}
+	
+	public int getUpper() {
+		return this.upper;
+	}
+	
+	public int getN() {
+		return this.n;
+	}
+	
+	boolean contain(int n) {
+		if (n > 0) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	public ArrayList<Integer> getValues() {
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		
+		for (int i = lower; i < upper + 1; i++) {
+			list.add(i);
+		}
+		return list;
+	}
+	
+	public Range(int lower, int upper) {
+		this.lower = lower;
+		this.upper = upper;	
+		this.n = upper - lower;
+	}
+}
+
+public class ExerciseTwo {
+
+	private static Scanner input;
+
+	public static void main(String[] args) {
+		
+		input = new Scanner(System.in);
+		int upper = input.nextInt();
+		int lower = input.nextInt();
+		
+		Range sequence = new Range(lower, upper);
+		
+		if (sequence.contain(sequence.getN()) == false) {
+			System.out.println("First entry must be higher than the second entry");
+		} else {
+			for (int i: sequence.getValues()) {
+				float f = (sequence.getValues().get(i) * (9/5)) + 32;
+				System.out.print("Temperature is " + i + " | " + "Fahrenheit is ");
+				System.out.printf("%.1f\n", f);
+				
+			}
+			
+		}
+		
+	}
+	
+}

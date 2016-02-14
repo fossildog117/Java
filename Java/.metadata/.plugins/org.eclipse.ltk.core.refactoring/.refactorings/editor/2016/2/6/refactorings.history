@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;editor.TextEditor.area&apos; in &apos;editor.TextEditor&apos;&#x0A;- Original project: &apos;editor&apos;&#x0A;- Original element: &apos;editor.TextEditor.area&apos;&#x0A;- Getter method name: &apos;getArea&apos;&#x0A;- Setter method name: &apos;setArea&apos;&#x0A;- Field visibility: &apos;public&apos;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;area&apos;" flags="589830" getter="getArea" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;editor{editor.java[TextEditor^area" insertion="4" setter="setArea" stamp="1455351857636" version="1.0" visibility="1"/>
+</session>
